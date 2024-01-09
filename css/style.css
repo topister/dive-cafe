@@ -51,7 +51,13 @@ div,li {
   width: 100%;
 }
 .section_inner {
-  padding: 50px 10% 30px;
+
+  padding: 200px 10% 30px;
+}
+.new-key{
+    border: 5px solid red;
+    padding: 30px;
+    width: 300px;
 }
 .key {
   height: 500px;
