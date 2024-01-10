@@ -48,6 +48,7 @@ div,li {
   align-items: center;
 }
 .logo img{
+
   width: 100%;
 }
 .section_inner {
@@ -55,7 +56,7 @@ div,li {
   padding: 200px 10% 30px;
 }
 .new-key{
-    border: 5px solid red;
+    border: 3px solid red;
     padding: 30px;
     width: 300px;
 }
@@ -88,4 +89,99 @@ div,li {
 .caffee_menu_image {
   width: 20%;
   border-radius: 50%;
+}
+
+.concept-section{
+  display: flex;
+}
+.concept-section p{
+  width: 60%;
+  margin: 35px;
+}
+.concept-section img{
+  width: 35%;
+  margin-left: 20px;
+}
+.menu{
+  /* height: 800px; */
+  background: center / cover no-repeat url("../images/sample_menu_bg.jpg");
+}
+.menu-part1{
+  width: 100%;
+}
+.menu-part1 ul{
+  display: flex;
+}
+.menu-part1 ul .blueberry{
+  width: 49%;
+  /* position: relative; */
+
+}
+
+.menu-part1 ul .blueberry img{
+  width: 55%;
+}
+.menu-part1 ul .strawberry{
+  width: 49%;
+}
+
+.menu-part1 ul .strawberry img{
+  width: 55%;
+}
+
+.rec-menu{
+  margin: 100px;
+}
+.blueberry{
+  margin-top: -80px;
+}
+.strawberry{
+  margin-top: -80px;
+}
+.blue-sec{
+  float: right;
+  left: 230px;
+  background-color: #fff;
+  width: 180px;
+}
+
+.blue-sec h2{
+  margin-left: 15px;
+}
+
+.blue-sec p{
+  margin-left: 15px;
+  margin-right: 60px;
+}
+.blue-sec .cash{
+  clear: both;
+  float:right;
+  margin-top:115px;
+  margin-right:5px;
+  
+}
+.straw-sec{
+  float: right;
+  left: 230px;
+  background-color: #fff;
+  width: 180px;
+}
+
+.straw-sec h2{
+  margin-left: 15px;
+}
+
+.straw-sec p{
+  margin-left: 15px;
+  margin-right: 60px;
+}
+.straw-sec .cash{
+  clear: both;
+  float:right;
+  margin-top:93px;
+  margin-right:5px;
+  
+}
+.matcha{
+  width: 15px;
 }
