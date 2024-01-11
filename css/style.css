@@ -103,7 +103,6 @@ div,li {
   margin-left: 20px;
 }
 .menu{
-  /* height: 800px; */
   background: center / cover no-repeat url("../images/sample_menu_bg.jpg");
 }
 .menu-part1{
@@ -114,7 +113,6 @@ div,li {
 }
 .menu-part1 ul .blueberry{
   width: 49%;
-  /* position: relative; */
 
 }
 
@@ -184,4 +182,97 @@ div,li {
 }
 .matcha{
   width: 15px;
+}
+
+.coffee{
+  clear: both;
+  margin: 20px;
+  display: flex;
+  background-color: #fff;
+}
+
+.coffee1 img{
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 20%;
+}
+.coffee-part1{
+  width: 49%;
+}
+.blend{
+  position:relative;
+  float: right;
+  margin-right: 150px;
+}
+
+.latte{
+  position:relative;
+  float: right;
+  margin-right: 210px;
+  top: 150px;
+
+}
+.coffee2 img{
+  margin-left: 20px;
+  margin-top: 160px;
+  width: 20%;
+}
+
+.coffee-part2{
+  width: 49%;
+}
+
+.coffee3 img{
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 20%;
+}
+
+.cafe-latte{
+  position:relative;
+  float: right;
+  margin-right: 220px;
+}
+
+.coffee4 img{
+  margin-left: 20px;
+  margin-top: 160px;
+  width: 20%;
+}
+
+.ice-coffee{
+  position:relative;
+  float: right;
+  margin-right: 210px;
+  top: 150px;
+
+}
+footer{
+  background-color: #251e19;
+  height: 75px;
+  display: block;
+  justify-content: space-between;
+  align-items: stretch;
+}
+footer nav ul{
+  display: flex;
+  justify-content: center;
+}
+
+footer nav ul a li{
+  justify-content: space-between;
+  margin: 10px;
+  list-style:circle;
+  
+  text-align: center;
+  color: #fff;
+  
+}
+footer nav ul a li img{
+  width: 30px;
+  height: 30px;
+}
+footer p{
+  text-align: center;
+  color: #fff;
 }
